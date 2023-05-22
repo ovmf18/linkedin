@@ -1,0 +1,67 @@
+section.card.atividades {
+    padding: 1rem 1.6rem;
+    font-size: 14px;
+}
+
+.atividades .seguidores {
+    font-weight: 500;
+}
+
+.publicacoes_atividades {
+    margin-top: .5rem;
+}
+
+li.item_atividade {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+li.item_atividade:first-child {
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+.item_atividade .autor_atividade {
+    color: var(--texto-secundario);
+}
+
+.item_atividade .conteudo_atividade div {
+    display: flex;
+    margin-top: .5rem;
+}
+
+.item_atividade .conteudo_atividade div img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    margin-right: .5rem;
+}
+
+.item_atividade .conteudo_atividade div p {
+    text-align: justify;
+}
+
+.item_atividade .visualizacoes {
+    display: flex;
+    justify-content: space-between;
+    color: var(--texto-secundario);
+}
+
+.item_atividade .visualizacoes .reacoes {
+    width: 60px;
+}
+
+a.expandir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--texto-secundario);
+    padding-top: 0.7rem;
+    width: 100%;
+    color: var(--texto-secundario);
+}
+
+.expandir:hover {
+    color: var(--texto-principal);
+}

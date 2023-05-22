@@ -1,0 +1,104 @@
+section.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+    background: var(--fundo-card);
+    padding: 0 6rem;
+}
+
+.navbar_busca {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 370px;
+}
+
+.navbar_logo-linkedin {
+    background-image: url('../icones/logo-linkedin.svg');
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar_busca-icone {
+    background-image: url('../icones/icone-busca.svg');
+    position: absolute;
+    left: 50px;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar_input {
+    width: 280px;
+    height: 34px;
+    background: var(--input);
+    border: none;
+    border-radius: 4px;
+    padding-left: 2.4rem;
+}
+
+.navbar_input::placeholder {
+    color: var(--texto-principal);
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+}
+
+.navbar_item:last-child {
+    margin-left: .5rem;
+    border-left: 1px solid var(--texto-secundario);
+}
+
+.navbar_item a {
+    text-align: center;
+    width: 80px;
+    font-size: 12px;
+    color: var(--texto-secundario);
+    transition: color .3s ease;
+}
+
+.navbar_item a:hover {
+    color: var(--texto-principal);
+}
+
+span.inicio {
+    background-image: url('../icones/icone-inicio.svg');
+}
+
+span.minha-rede {
+    background-image: url('../icones/icone-minha-rede.svg');
+}
+
+span.vagas {
+    background-image: url('../icones/icone-vagas.svg');
+}
+
+span.mensagens {
+    background-image: url('../icones/icone-mensagens.svg');
+}
+
+span.notificacoes {
+    background-image: url('../icones/icone-notificacoes.svg');
+}
+
+span.solucoes {
+    background-image: url('../icones/icone-solucoes.svg');
+}
+
+.item_icone {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

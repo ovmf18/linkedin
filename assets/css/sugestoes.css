@@ -1,0 +1,63 @@
+div.sugestoes {
+    margin-top: 1rem;
+    grid-area: conteudo;
+}
+
+section.card.sugestoes {
+    width: 320px;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.sugestoes h2 {
+    font-size: 16px;
+}
+
+li.sugestao_item {
+    display: flex;
+    margin: 1rem 0;
+}
+
+li.sugestao_item img {
+    width: 48px;
+    height: 48px;
+    margin-right: .5rem;
+    object-fit: cover;
+}
+
+li.sugestao_item div {
+    display: flex;
+    flex-direction: column;
+}
+
+li.sugestao_item .perfil_nome {
+    font-weight: bold;
+}
+
+li.sugestao_item .perfil_nome:hover {
+    color: var(--primario);
+    cursor: pointer;
+}
+
+li.sugestao_item .perfil_titulo {
+    font-size: 12px;
+    color: var(--texto-secundario);
+}
+
+button.sugestao_botao {
+    width: 154px;
+    color: var(--texto-principal);
+    border: 1px solid var(--texto-principal);
+    background-color: transparent;
+    margin-top: 4px;
+}
+
+button.sugestao_botao.conectar {
+    width: 99px;
+}
+
+li.sugestao_item .sugestao_botao:hover {
+    color: var(--primario);
+    border-color: var(--primario);
+    cursor: pointer;
+}

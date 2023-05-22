@@ -1,0 +1,51 @@
+@import url('./reset.css');
+@import url('./informacoes-perfil.css');
+@import url('./navbar.css');
+@import url('./destaques.css');
+@import url('./atividades.css');
+@import url('./sobre.css');
+@import url('./experiencias.css');
+@import url('./formacao.css');
+@import url('./idiomas.css');
+@import url('./sugestoes.css');
+
+body {
+    background-color: var(--fundo-escuro);
+}
+
+a {
+    color: var(--primario);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+}
+
+main > .perfil {
+    align-items: flex-end;
+    margin-right: 1.5rem;
+}
+
+main > .sugestoes {
+    align-items: flex-start;
+}
